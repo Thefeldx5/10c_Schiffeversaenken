@@ -87,6 +87,6 @@ class SIMULATION
      */
     void TasteGedrueckt (char welche)
     {
-    	System. out. println ("Taste gedrückt: " + welche);
+        System. out. println ("Taste gedrückt: " + welche);
     }
 }

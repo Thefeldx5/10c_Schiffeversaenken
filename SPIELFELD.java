@@ -10,7 +10,43 @@ public class SPIELFELD
     /** Konstruktur*/
     SPIELFELD ()
     {
-        beschossenesFeld (false);
-        schiffAufFeld (false);
+        beschossenesFeld = false;
+        schiffAufFeld = false;
     }
+    
+    /** */
+    public boolean beschiesseFeld()
+    {
+        beschossenesFeld = true;
+        
+        if (schiffAufFeld) 
+        {
+            versenkeSchiff();
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
+    }
+
+    public void setzeSchiff()
+    {
+        schiffAufFeld = true;
+    }
+   
+    public void versenkeSchiff()
+    {
+        schiffAufFeld = false;
+    }   
+   
+    public boolean FeldWurdeBeschossen()
+    {
+        return beschossenesFeld;
+    }
+   
+    public boolean isSchiff()
+    {
+        return schiffAufFeld;
+    }   
 }
