@@ -1,10 +1,12 @@
 
  class SCHIFFEVIER
-{ RUMPFSYMBOL [] schiffevier;
-    
+{ 
+    RUMPFSYMBOL[] rumpf;
     SCHIFFEVIER (int x, int y, char richtung)
-  {
-      schiffevier = new RUMPFSYMBOL [4];
-  }
+    {
+      rumpf = new RUMPFSYMBOL [4];
+      rumpf.PositionSetzen (x, y);
+      
+    }
     
 }
