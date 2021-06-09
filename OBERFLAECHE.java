@@ -13,9 +13,9 @@ class OBERFLAECHE
     /** Anzeigegröße für eine Rasterkachel */
     private static final int rasterGroesse = 40;
     /** Höhe des Anzeigefensters */
-    private static final int hoeheFenster = rasterGroesse * 26;
+    private static final int hoeheFenster = rasterGroesse * 24;
     /** Breite des Anzeigefensters */
-    private static final int breiteFenster = rasterGroesse * 26;
+    private static final int breiteFenster = rasterGroesse * 24;
     private static OBERFLAECHE o = null;
     private JFrame fenster = null;
 
