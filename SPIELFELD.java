@@ -2,10 +2,10 @@
 public class SPIELFELD
 {
     /** ob das Feld beschossen wurde*/
-    private boolean beschossenesFeld;
+    boolean beschossenesFeld;
     
     /** ob ein Schiff auf dem Feld ist*/
-    private boolean schiffAufFeld;
+    boolean schiffAufFeld;
     
     /** Konstruktur*/
     SPIELFELD ()
