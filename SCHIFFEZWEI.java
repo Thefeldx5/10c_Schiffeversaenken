@@ -3,7 +3,7 @@
  { RUMPFSYMBOL [] rumpf;
   public int x;
   public int y; 
-  SCHIFFEZWEI (int x, int y, char richtung)
+  SCHIFFEZWEI ()
   {
       rumpf = new RUMPFSYMBOL [2];
       rumpf[0]= new RUMPFSYMBOL();
@@ -12,11 +12,11 @@
   
   void SchiffevierSetzen (int x, int y, char richtung)
   { switch (richtung)
-     {case 'N':
+     {case 'S':
       rumpf[0]. PositionSetzen(x, y);
       rumpf[1]. PositionSetzen(x, y +1);
       break;
-      case 'n':
+      case 'N':
       rumpf[0]. PositionSetzen(x, y);
       rumpf[1]. PositionSetzen(x, y-1);
       break;
@@ -24,7 +24,7 @@
       rumpf[0]. PositionSetzen(x, y);
       rumpf[1]. PositionSetzen(x +1, y);
       break;
-      case 'o':
+      case 'W':
       rumpf[0]. PositionSetzen(x, y);
       rumpf[1]. PositionSetzen(x -1, y);
       break;
