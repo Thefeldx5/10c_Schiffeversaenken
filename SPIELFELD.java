@@ -7,6 +7,8 @@ public class SPIELFELD
     /** ob ein Schiff auf dem Feld ist*/
     boolean schiffAufFeld;
     
+    
+    
     /** Konstruktur*/
     SPIELFELD ()
     {
