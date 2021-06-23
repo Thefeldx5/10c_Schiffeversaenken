@@ -3,17 +3,19 @@ import java.awt.*;
 
 public class SPIEL
 {
-    boolean istSchiff;
-    boolean beschossen;
+    /** Spielfelder erstellen*/
+    SPIELFELD Spielfeld1;
+    SPIELFELD Spielfeld2;
+    SPIELFELD Spielfeld3;
+    SPIELFELD Spielfeld4;
     
+    /** Konstruktor */
     SPIEL ()
     {
-        istSchiff = false;
-        beschossen = false;
+        Spielfeld1 = new SPIELFELD();
+        Spielfeld2 = new SPIELFELD();
+        Spielfeld3 = new SPIELFELD();
+        Spielfeld4 = new SPIELFELD();
     }
-    
-    void beschiessen ()
-    {
-        
-    }
+
 }
