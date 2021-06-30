@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class UI_QUIZ
+class UI_TEXTFIELD
 {
     Frame fenster;
     Label fragetext;
@@ -11,7 +11,7 @@ class UI_QUIZ
     /**
      * Constructor for objects of class OBERFLAECHE
      */
-    public UI_QUIZ()
+    public UI_TEXTFIELD()
     {
         fenster = new Frame("UI");
         fenster.setSize(600,400);
