@@ -10,7 +10,7 @@
       rumpf[1] = new RUMPFSYMBOL();
   }
   
-  void SchiffevierSetzen (int x, int y, char richtung)
+  void SchiffezweiSetzen (int x, int y, char richtung)
   { switch (richtung)
      {case 'S':
       rumpf[0]. PositionSetzen(x, y);

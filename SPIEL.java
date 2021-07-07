@@ -24,12 +24,19 @@ public class SPIEL extends SIMULATION
         Spielfeld3 = new SPIELFELD();
         Spielfeld4 = new SPIELFELD();
         schlachtschiff = new SCHIFFEFÜNF();
+        schlachtschiff.SchiffefünfSetzen(2,3,'S');
         kreuzer = new SCHIFFEVIER();
+        kreuzer.SchiffevierSetzen(7,4,'O');
         zerstörer = new SCHIFFEDREI();
+        zerstörer.SchiffedreiSetzen(10,8,'S');
         zerstörer1 = new SCHIFFEDREI();
+        zerstörer1.SchiffedreiSetzen(7,9,'W');
         zerstörer2 = new SCHIFFEDREI();
+        zerstörer2.SchiffedreiSetzen(5,6,'O');
         uboot = new SCHIFFEZWEI();
+        uboot.SchiffezweiSetzen(5,3,'N');
         uboot1 = new SCHIFFEZWEI();
+        uboot1.SchiffezweiSetzen(2,10,'W');
     }
 
 }
